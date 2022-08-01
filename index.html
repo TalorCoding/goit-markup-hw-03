@@ -9,15 +9,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!--Шапка сайту-->
 
     <header class="header">
+        <div class="header-container">
         <a href="./index.html" class="header-logo">Web<span class="header-logo-sep">Studio</span></a>
         <nav class="header-nav">
-        <ul class="list">
+        <ul class="list header-list">
             <li class="header-link">
                 <a href="./index.html">Студия</a>
             </li>
@@ -29,7 +32,8 @@
             </li>
         </ul>
     </nav>
-        <ul class="list">
+    <div class="header-contacts">
+        <ul class="list header-list">
             <li>
                 <a href="mailto:info@devstudio.com" class="header-mail">info@devstudio.com</a>
             </li>
@@ -37,21 +41,28 @@
                 <a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a>
             </li>
         </ul>
-    
+    </div>
     </header>
 <main class="studio">
+
     <!--Hero секція з кнопкою-->
 <section class="hero">
+    <div class="container">
+        <div class="hero-content">
     <h1 class="hero-title">
         Эффективные решения для вашего бизнеса
     </h1>
     <button type="button" class="hero-btn">Заказать услугу</button>
+</div>
+</div>
+
+
 </section>
 
 <!--Секція 1 без фотографій-->
 <section class="section-1">
-
-<ul class="list">
+<div class="container">
+<ul class="list section-1-list">
     <li>
 <h3 class="section-1-title">Внимание к деталям</h3>
 <p class="section-1-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -75,33 +86,41 @@
 </li>
 
 </ul>
+
+</div>
+
 </section>
 
 <!--Секція 2 яка мало що пояснює, але з красивими картинками-->
 <section class="section-2">
+    <div class="container">
     <h2 class="section-2-title">Чем мы занимаемся</h2>
-    <ul class="list">
-    <li><img src="./images/img1.jpg" alt="Компьютерные технологии" width="370" height="294"></li>
-    <li><img src="./images/img2.jpg" alt="Мобильные технологии" width="370" height="294"></li>
-    <li><img src="./images/img3.jpg" alt="Графические технологии" width="370" height="294"></li>
+    <ul class="list section-2-list">
+    <li class="section-2-item"><img src="./images/img1.jpg" alt="Компьютерные технологии" width="370" height="294"></li>
+    <li class="section-2-item"><img src="./images/img2.jpg" alt="Мобильные технологии" width="370" height="294"></li>
+    <li class="section-2-item"><img src="./images/img3.jpg" alt="Графические технологии" width="370" height="294"></li>
     </ul>
+</div>
 </section>
 
 <!--Секція 3 з членами команди-->
 <section class="section-3">
+    <div class="container">
     <h2 class="section-3-title">Наша команда</h2>
-    <ul class="list">
-        <li><img src="./images/photo1.jpg" alt="Фотография" width="270" height="260"> <p class="section-3-name">Игорь Демьяненко</p> <p class="section-3-text">Product Designer</p></a></li>
-        <li><img src="./images/photo2.jpg" alt="Фотография" width="270" height="260"> <p class="section-3-name">Ольга Репина</p><p class="section-3-text">Frontend Developer</p></li>
-        <li><img src="./images/photo3.jpg" alt="Фотография" width="270" height="260"> <p class="section-3-name">Николай Тарасов</p><p class="section-3-text">Marketing</p></li>
-        <li><img src="./images/photo4.jpg" alt="Фотография" width="270" height="260"> <p class="section-3-name">Михаил Ермаков</p><p class="section-3-text">UI Designer</p></li>
+    <ul class="list section-3-list">
+        <li class="section-3-list-item"><img class="section-3-image" src="./images/photo1.jpg" alt="Фотография" width="270" height="260"> <p class="section-3-name">Игорь Демьяненко</p> <p class="section-3-text">Product Designer</p></a></li>
+        <li class="section-3-list-item"><img class="section-3-image" src="./images/photo2.jpg" alt="Фотография" width="270" height="260"> <p class="section-3-name">Ольга Репина</p><p class="section-3-text">Frontend Developer</p></li>
+        <li class="section-3-list-item"><img class="section-3-image" src="./images/photo3.jpg" alt="Фотография" width="270" height="260"> <p class="section-3-name">Николай Тарасов</p><p class="section-3-text">Marketing</p></li>
+        <li class="section-3-list-item"><img class="section-3-image" src="./images/photo4.jpg" alt="Фотография" width="270" height="260"> <p class="section-3-name">Михаил Ермаков</p><p class="section-3-text">UI Designer</p></li>
     </ul>
+</div>
 </section>
 </main>
 </body>
 
 <!--Підвал сайту-->
 <footer class="footer">
+    <div class="container">
     <a href="./index.html" class="footer-logo">Web<span class="footer-logo-sep">Studio</span></a>
     <address>
         <ul class="list">
@@ -110,6 +129,7 @@
         <li class="footer-tel"><a href="tel:+380991111111"></a>+38 099 111 11 11</li>
         </ul>
     </address>
+</div>
 </footer>
 
 </html>
