@@ -145,6 +145,7 @@ color: var(--text-color);
 
 .hero {
     background: var(--background-color);
+    padding: 200px 0px 200px;
 }
 
 
@@ -152,11 +153,6 @@ color: var(--text-color);
     background-color: var(--main-light-color);
 }
 
-.hero-content {
-    padding: 280px 0px 280px;
-    
-    
-}
 
 .hero-title {
     font-weight: 900;
@@ -234,6 +230,10 @@ color: var(--text-color);
     margin-right: 30px;
 }
 
+.section-2 {
+    padding-bottom: 94px;
+}
+
 .section-2-title {
 font-weight: 700;
 font-size: 36px;
@@ -275,7 +275,7 @@ letter-spacing: 0.03em;
 .section-3-list {
     display: flex;
     justify-content: center;
-    
+    gap: 30px;
 }
 
 .section-3-list-item {
@@ -285,13 +285,11 @@ letter-spacing: 0.03em;
     box-shadow: 1px 2px 5px gray;
 }
 
-.section-3-list-item:not(:last-child) {
-margin-right: 30px;
-}
+.section-3-list-item {
+    
+    }
 
-.section-3-name {
-    margin-top: 30px;
-}
+
 
 .section-3-text {
 font-weight: 400;
@@ -301,8 +299,12 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--text-color);
 margin-top: 10px;
-padding-bottom: 30px;
 
+}
+
+.section-3-div {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .portfolio {
